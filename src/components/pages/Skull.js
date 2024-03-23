@@ -1,6 +1,3 @@
-
-
-
 //BACKGROUND SKULL
 
 console.clear();

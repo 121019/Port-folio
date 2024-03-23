@@ -2,3 +2,34 @@
     margin:0;
 }
 
+.navbar {
+    position :relative;
+    margin-top: 8rem;
+    left:50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: tan;
+    padding: 1.6rem;
+    text-align: center;
+    width: 99%; /* Ajustez la largeur selon votre mise en page */
+  }  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links > div {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    color: darkslategray;
+  }

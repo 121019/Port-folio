@@ -2,7 +2,12 @@
     color: tan;  
   
   }
-  
+  body {
+    position: absolute;
+    background-color: black;
+    animation: glitter 1s linear infinite;
+  }
+    
   h1{
      position : absolute;
       text-align:center;
@@ -11,24 +16,22 @@
       font-size:3rem;
       left: 50%; /* Centrer horizontalement */
       transform: translateX(-50%); /* Déplacer de moitié de la largeur vers la gauche */
-  }
-  
-  
+
+    }
   
     .left-projetsformation{
        flex-direction: column;
        left: 15%; /* Centrer horizontalement */
        transform: translateX(-50%); /* Déplacer de moitié de la largeur vers la gauche */
        position: absolute;
-  
-      }
+
+    }
   
     .right-projetsseule{
        flex-direction: column;
        position: absolute;
        left: 85%; /* Centrer horizontalement */
        transform: translateX(-50%); /* Déplacer de moitié de la largeur vers la gauche */
-  
   
    }
   
@@ -37,6 +40,7 @@
       display: flex;
       flex-direction: column;
     }
+
   
    
   

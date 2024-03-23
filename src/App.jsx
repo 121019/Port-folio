@@ -3,10 +3,10 @@ import React from "react";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Contact from "./components/Navbar/Contact";
 import Footer  from "./components/pages/Footer";
-import Projetsseule from "./components/Navbar/Projetsseule";
+import PersonnalProjects from "./components/Navbar/PersonnalProjects";
 import Projetsformation from "./components/Navbar/Projetsformation";
 import HomePage from "./components/pages/HomePage";
-import Langages from "./components/Navbar/Langages";
+import Technology from "./components/Navbar/Technology";
 import Skull from "./components/pages/Skull";
 
 import "./App.css";
@@ -17,9 +17,9 @@ function App() {
       <Navbar />
           <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/projetsseule" element={<Projetsseule />} />
+          <Route path="/PersonnalProjects" element={<PersonnalProjects />} /> 
           <Route path="/projetsformation" element={<Projetsformation />} />
-          <Route path="/langagesétudiés" element={<Langages />} />
+          <Route path="/Technology" element={<Technology />} />
           <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
@@ -31,4 +31,3 @@ function App() {
 export default App;
 
 
-src/components/Navbar/Navbar.jsx
