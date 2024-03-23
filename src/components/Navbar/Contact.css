@@ -1,0 +1,125 @@
+.container input {
+    border-radius: 10px;
+    border: 0.1rem solid black;
+    width: 60%;
+    height: 5%;
+    font-size: 2em;
+    margin: 3% auto;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .container textarea{
+    border-radius: 10px;
+    border: 0.3rem black;
+    width: 60%;
+    height: 10em;
+    font-size: 2em;
+    margin: 3% auto;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .container form > button {
+    width: auto;
+    padding: 0.5em 1em;
+    font-size: 2em;
+    border-radius: 9px;
+    border-color: black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color:black;
+    background-color: tan;
+    display: flex;
+  }
+  
+    .container {
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 50%;
+      margin-bottom: 3rem;
+      border-radius: 9px;
+      font-size: 0.6rem;
+      box-shadow: tan;
+  }
+  
+   .contact{
+    background-size: cover;
+    height: 20em;
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+   }
+   .contact h3{
+    font-size: 3em;
+    background-color: tan;
+    padding: 1% 4%;
+    color: white;
+        text-align:center;
+
+   }
+  
+   .contactMessage{
+      font-size:1.4rem;
+      padding-top: 5rem;
+      padding-bottom: 5rem;;
+      color: tan;
+      text-align: center;
+      font-weight: bold;
+   }
+  
+   .container>form{
+    margin-top:2rem;
+    width: 80%;
+   }
+   .coordinate, .coordinate_detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .coordinate{
+    width: 70%;
+    
+   }
+   .coordinate h4{
+    font-size: 1.8em;
+    color: tan;
+    text-decoration: underline;
+    margin-bottom: 3%;
+   }
+   .coordinate_detail{
+    margin-bottom: 5%;
+    color:tan;
+    width: 100%;
+    border-radius: 9px;
+    box-shadow:tan;
+  
+   }
+  .coordinate_detail h5{
+    font-size: 1.5em;
+    margin-bottom: 1%;
+    margin-top: 2%;
+  }
+  
+   .coordinate_detail p{
+    font-size: 1em;
+    margin-top: 2%;
+    width: 100%;
+    text-align: center;
+  }
+  .coordinate_detail .adresse{
+    margin-bottom: 2%;
+  }
+  
+   @media screen and (max-width : 550px){
+
+  }
+  
+  

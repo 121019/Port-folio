@@ -1,0 +1,42 @@
+*{
+    color: tan;  
+  
+  }
+  
+  h1{
+     position : absolute;
+      text-align:center;
+      top : 0;
+      margin:2.5rem;
+      font-size:3rem;
+      left: 50%; /* Centrer horizontalement */
+      transform: translateX(-50%); /* Déplacer de moitié de la largeur vers la gauche */
+  }
+  
+  
+  
+    .left-projetsformation{
+       flex-direction: column;
+       left: 15%; /* Centrer horizontalement */
+       transform: translateX(-50%); /* Déplacer de moitié de la largeur vers la gauche */
+       position: absolute;
+  
+      }
+  
+    .right-projetsseule{
+       flex-direction: column;
+       position: absolute;
+       left: 85%; /* Centrer horizontalement */
+       transform: translateX(-50%); /* Déplacer de moitié de la largeur vers la gauche */
+  
+  
+   }
+  
+    a {
+      text-decoration: none;  
+      display: flex;
+      flex-direction: column;
+    }
+  
+   
+  
